@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jemrey's Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-black text-white">
+    <!-- Header -->
+    <header class="flex justify-between items-center p-6 border-b border-gray-800">
+      <h1 class="text-2xl font-bold text-green-400">Jemrey.</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-green-400">About</a>
+        <a href="#products" class="hover:text-green-400">Products</a>
+        <a href="#contact" class="hover:text-green-400">Contact</a>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="text-center py-20">
+      <h2 class="text-4xl font-bold mb-4">Hello, I'm <span class="text-green-400">Jemrey Dela Cruz</span></h2>
+      <p class="text-lg text-gray-400">Hello Everyone. Welcome to my Website.</p>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="max-w-4xl mx-auto py-20 px-4">
+      <h3 class="text-3xl font-semibold mb-6 border-b border-green-400 pb-2">About Me</h3>
+      <ul class="text-lg space-y-2 text-gray-300">
+        <li><strong>Name:</strong> Jemrey Dela Cruz</li>
+        <li><strong>Age:</strong> 19</li>
+        <li><strong>Address:</strong> Manila</li>
+        <li><strong>Hobby:</strong> Playing games and scrolling in FB</li>
+      </ul>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="bg-gray-900 py-20 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h3 class="text-3xl font-semibold text-green-400 mb-10">For Sale - Products</h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <img src="car1.jpg" alt="Mustang Rear" class="w-full h-64 object-cover" />
+            <div class="p-6">
+              <h4 class="text-2xl font-bold mb-2">2011 Ford Mustang Shelby GT500</h4>
+              <ul class="text-gray-300 text-sm mb-4">
+                <li><strong>Transmission:</strong> Manual</li>
+                <li><strong>Color:</strong> Red</li>
+                <li><strong>Mileage:</strong> 15,xxx</li>
+                <li><strong>Fuel:</strong> Gas</li>
+                <li><strong>Engine:</strong> 5.0L</li>
+                <li><strong>Features:</strong> All Stock, Touch Screen, Leather Seats, Pypes Exhaust, SVT Mags</li>
+                <li><strong>Location:</strong> Pateros/Taguig</li>
+              </ul>
+              <p class="text-green-400 font-bold text-lg">Price: PHP 3,450,000</p>
+            </div>
+          </div>
+          <div class="bg-gray-800 rounded-xl overflow-hidden shadow-lg">
+            <img src="car2.jpg" alt="Mustang Front" class="w-full h-64 object-cover" />
+            <div class="p-6">
+              <p class="text-gray-400">Fresh inside and out. Original paint. LTO & HPG Verified.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 px-4 text-center">
+      <h3 class="text-2xl font-semibold mb-2">Contact Me</h3>
+      <p class="text-gray-400">Email: jemcarx@gmail.com</p>
+    </section>
+
+    <footer class="text-center text-gray-600 py-6 border-t border-gray-800 text-sm">
+      &copy; 2025 Jemrey Dela Cruz. All rights reserved.
+    </footer>
+  </body>
+</html>
